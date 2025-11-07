@@ -27,7 +27,7 @@ export default function MobileMenu() {
             <ul className="navigation clearfix">
                 <li className={isActive.key == 1 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(1)}>
                     <Link href="/#">Home</Link>
-                    <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
+                    {/* <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                         <li className={pathname == "/" ? "current" : ""}>
                             <Link href="/">Home Page 01</Link>
                         </li>
@@ -37,7 +37,7 @@ export default function MobileMenu() {
                         <li className={pathname == "/home04" ? "current" : ""}><Link href="/home04">Home Page 04</Link></li>
                         <li className={pathname == "/home05" ? "current" : ""}><Link href="/home05">Home Page 05</Link></li>
                         <li className={pathname == "/home06" ? "current" : ""}><Link href="/home06">Home Page 06</Link></li>
-                    </ul>
+                    </ul> */}
                     <div className="dropdown2-btn" />
                 </li>
                 <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>

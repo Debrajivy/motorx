@@ -22,7 +22,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
                                         <nav className="main-menu show navbar-expand-md">
                                             <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                                 <ul className="navigation clearfix">
-                                                    <li className="dropdown2">
+                                                    {/* <li className="dropdown2">
                                                         <Link href="/#">Home</Link>
                                                         <ul>
                                                             <li>
@@ -34,7 +34,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
                                                             <li><Link href="/home05">Home Page 05</Link></li>
                                                             <li><Link href="/home06">Home Page 06</Link></li>
                                                         </ul>
-                                                    </li>
+                                                    </li> */}
                                                     <li className="dropdown2">
                                                         <Link href="/#">Cars</Link>
                                                         <ul>

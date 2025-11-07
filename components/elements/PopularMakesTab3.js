@@ -1,6 +1,8 @@
 'use client'
 import Link from "next/link"
 import { useState } from "react"
+import carimage from '../../public/assets/images/carimage.png'
+
 export default function PopularMakesTab3() {
     const [activeIndex, setActiveIndex] = useState(1)
     const handleOnClick = (index) => {
@@ -49,20 +51,20 @@ export default function PopularMakesTab3() {
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
                                             <div className="listing-item active" title="Lexus LC Hybrid 2024">
-                                                <div className="images">
-                                                    <img src="./assets/images/car-list/car1.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                <div className="images" >
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
-                                                        <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
+                                                        <img src={carimage.src} className="icon-img" alt="icon-map" />
                                                         <p>2 more photos</p>
                                                     </div>
                                                 </div>
@@ -143,19 +145,19 @@ export default function PopularMakesTab3() {
                                         <div className="wrap-hover-listing">
                                             <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car2.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
-                                                        <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
+                                                        <img src={carimage.src} className="icon-img" alt="icon-map" />
                                                         <p>2 more photos</p>
                                                     </div>
                                                 </div>
@@ -236,19 +238,19 @@ export default function PopularMakesTab3() {
                                         <div className="wrap-hover-listing">
                                             <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car3.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
-                                                        <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
+                                                        <img src={carimage.src} className="icon-img" alt="icon-map" />
                                                         <p>2 more photos</p>
                                                     </div>
                                                 </div>
@@ -329,19 +331,19 @@ export default function PopularMakesTab3() {
                                         <div className="wrap-hover-listing">
                                             <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car4.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
-                                                        <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
+                                                        <img src={carimage.src} className="icon-img" alt="icon-map" />
                                                         <p>2 more photos</p>
                                                     </div>
                                                 </div>
@@ -422,19 +424,19 @@ export default function PopularMakesTab3() {
                                         <div className="wrap-hover-listing">
                                             <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
-                                                        <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
+                                                        <img src={carimage.src} className="icon-img" alt="icon-map" />
                                                         <p>2 more photos</p>
                                                     </div>
                                                 </div>
@@ -515,19 +517,19 @@ export default function PopularMakesTab3() {
                                         <div className="wrap-hover-listing">
                                             <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car6.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src}className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
                                             <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                 <div className="images">
-                                                    <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                    <img src={carimage.src} className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
-                                                        <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
+                                                        <img src={carimage.src} className="icon-img" alt="icon-map" />
                                                         <p>2 more photos</p>
                                                     </div>
                                                 </div>

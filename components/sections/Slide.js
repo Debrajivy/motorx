@@ -1,8 +1,9 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
-import VideoPopup from '../elements/VideoPopup'
-
+import VideoPopup from '../elements/VideoPopup';
+import carimage from '../../public/assets/images/carimage.png'
+import background from '../../public/assets/images/background.jpg'
 export default function Slide() {
     const [isToggled, setToggled] = useState(true)
     const handleToggle = () => setToggled(!isToggled)
@@ -12,7 +13,7 @@ export default function Slide() {
                 <div className="slider-wrap swiper-wrapper">
                     <div className="tf-slide-item swiper-slide">
                         <div className="slide-item-image">
-                            <img src="/assets/images/slide/bg.jpg" alt="" />
+                            <img src={background.src} alt="" />
                             <div className="overlay" />
                         </div>
                         <div className="slide-item-content">
@@ -39,13 +40,13 @@ export default function Slide() {
                                 </div>
                             </div>
                             <div className="slide-image">
-                                <img src="/assets/images/slide/icon.png" className="icon-shape wow swing" alt="" />
+                                <img src={carimage.src} className="icon-shape wow swing" alt="" />
                                 <div className="box-offer">
                                     <p>40 <span>%</span></p>
                                     <span>off</span>
                                 </div>
                                 <div className="box-car">
-                                    <img src="/assets/images/slide/car.png" alt="" />
+                                    <img src={carimage.src} alt="" />
                                     <div className="dot-car">
                                         <div className="dot">
                                             <i className={isToggled ? "icon-Vector-5  active" : " icon-Vector-5 "} onClick={handleToggle}>
